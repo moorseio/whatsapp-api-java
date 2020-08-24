@@ -43,7 +43,7 @@ Você não tem muito conhecimento, ou quer testar nossa API sem precisar utiliza
 ### :rocket: Configurando o projeto
 Neste tópico iremos ver como realizar a configuração do projeto.
 
-1. Acesse o sistema do [Moorse](https://app.moorse.io/register) e crie sua conta.
+1. Acesse o sistema do [Moorse](https://app.moorse.io/demo) e crie sua conta.
 2. No [menu de integrações](https://app.moorse.io/integrations) identifique o número disponibilizado para realizar sua demo e adicione na propriedade "number" do arquivo **application.yml**.
 3. Acesse o arquivo **application.yml** localizado em "whatsapp-api-java/src/main/resources/application.yml" e adicione seu login e senha.
 
