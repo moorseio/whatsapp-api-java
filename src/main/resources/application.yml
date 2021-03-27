@@ -3,11 +3,11 @@ server:
 
 moorse:
   integration:
-    number: 558393565781
+    number: 551151992100
   api:
-    url: http://api.moorse.io
-  login: seuemail@email.com
-  senha: 123456
+    url: https://api.moorse.io
+  login: testemoorse@moorse.io
+  senha: Mudar@123
 
 spring:
   h2:
