@@ -6,8 +6,8 @@ moorse:
     number: 551151992100
   api:
     url: https://api.moorse.io
-  login: testemoorseasdasdas@moorse.io
-  senha: Mudar@123
+  login: seuemail@email.com
+  senha: 123456
 
 spring:
   h2:
