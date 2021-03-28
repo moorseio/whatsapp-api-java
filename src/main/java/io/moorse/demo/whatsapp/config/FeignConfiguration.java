@@ -1,10 +1,10 @@
 package io.moorse.demo.whatsapp.config;
 
-import com.netflix.hystrix.exception.HystrixBadRequestException;
 import feign.RequestInterceptor;
 import feign.codec.ErrorDecoder;
 import io.moorse.demo.whatsapp.Utils.Constants;
 import org.apache.tomcat.util.buf.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpHeaders;
 import org.apache.commons.io.IOUtils;
@@ -13,11 +13,12 @@ import java.nio.charset.Charset;
 
 public class FeignConfiguration {
 
+    @Value("${moorse.token}")
+    private String token;
 
     @Bean
     public RequestInterceptor requestTokenBearerInterceptor() {
-        return requestTemplate -> requestTemplate.header(HttpHeaders.AUTHORIZATION,
-                "Bearer " + Constants.TOKEN);
+        return requestTemplate -> requestTemplate.header(HttpHeaders.AUTHORIZATION, token);
     }
 
 

@@ -6,8 +6,7 @@ moorse:
     number: 551151992100
   api:
     url: https://api.moorse.io
-  login: seuemail@email.com
-  senha: 123456
+  token: SEU_TOKEN_AQUI
 
 spring:
   h2:

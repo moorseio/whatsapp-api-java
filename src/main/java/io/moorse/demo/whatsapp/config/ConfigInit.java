@@ -19,17 +19,6 @@ import java.util.List;
 @Configuration
 public class ConfigInit {
 
-  @Value("${moorse.login}")
-  private String login;
-
-  @Value("${moorse.senha}")
-  private String senha;
-
-  public void login(MoorseLoginApi loginApi) {
-    DataResponse dataResponse = loginApi.login(new LoginRequest(login, senha));
-    Constants.TOKEN  = dataResponse.getData();
-  }
-
   @Bean
   public CommandLineRunner init(MenuRepository menuRepository, MoorseLoginApi loginApi) {
     return (args) -> {
@@ -85,8 +74,6 @@ public class ConfigInit {
 
       menuAdicionais.setItems(itensMenuAdicionais);
       menuRepository.save(menuAdicionais);
-
-      login(loginApi);
 
     };
   }
