@@ -7,21 +7,14 @@
   <a href="https://moorse.readme.io/">Documentação</a>
 </font></strong>
 <br/>
+[![Chat bot whatsapp Java](https://img.youtube.com/vi/qVqOn6Ee9x4/maxresdefault.jpg)](https://youtu.be/qVqOn6Ee9x4)
+
+<br/>
 <a href="https://moorse.io/">
   <img alt="Logo" title="#logo" width="300px" src="files/github.gif">
 </a>
 </p>
 </div>
-
-
-## O que é o WhatsApp Api Moorse Java?
-Moorse é uma empresa focada no desenvolvimento de API's e tecnologias de diversos canais de comunicação, entre essas API's temos a solução Moorse WhatsApp API (API não-oficial) que permite desenvolvedores utilizarem de suas funcionalidades que podem ter semelhança com a API oficial. Viemos ao mercado com o objetivo de facilitar a comunicação entre o seu sistema e o mundo digital de forma robusta e escalável. Esta documentação tem como objetivo exemplificar o uso do **Whatsapp API** na linguagem Java 
-
-* **E-Commerce** – Envie mensagens com o status do pedido em tempo real, mantenha seu cliente informado.
-* **Chat Bot** – Automatize a interação com clientes por fluxos conversacionais e seja mais eficiente. Escolha respostas predefinidas ou crie chatbots com Inteligência Artificial para interagir no WhatsApp.
-* **Alertas e Notificações** – Use as mensagens do WhatsApp para enviar com segurança mensagens sobre monitoramento, desde notificações de voo até confirmações de reserva e alertas de entrega.
-* **Atendimento** – Crie seu sistema de atendimento utilizando nossas APIs, permita que as equipes de vendas e suporte respondam perguntas sobre produtos ou serviços de atendimento ao cliente usando o aplicativo de mensagens preferido de seus clientes.
-
 
 
 <a id="tecnologias-utilizadas"></a>
