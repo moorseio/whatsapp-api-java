@@ -7,7 +7,8 @@
   <a href="https://moorse.readme.io/">Documentação</a>
 </font></strong>
 <br/>
-[![Chat bot whatsapp Java](https://img.youtube.com/vi/qVqOn6Ee9x4/maxresdefault.jpg)](https://youtu.be/qVqOn6Ee9x4)
+
+[![Watch the video](https://img.youtube.com/vi/qVqOn6Ee9x4/maxresdefault.jpg)](https://youtu.be/qVqOn6Ee9x4)
 
 <br/>
 <a href="https://moorse.io/">
