@@ -51,7 +51,7 @@ moorse:
 
 Configurando seu webhook 
 
-1 - Acesse a opção do menu [Webhooks]((https://app.moorse.io/webhooks) e adicione o seu webhook Ex: https://https://9c740e0cd1.ngrok.io/webhooks
+1 - Acesse a opção do menu [Webhooks](https://app.moorse.io/webhooks) e adicione o seu webhook Ex: https://https://9c740e0cd1.ngrok.io/webhooks
 2 - Toda mensagem recebida na sua integração será enviada para o seu webhook.
 
 ### :arrow_forward: Executando seu projeto
