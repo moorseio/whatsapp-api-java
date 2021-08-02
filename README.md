@@ -31,28 +31,28 @@ Além do Javascript, nós temos exemplos nas mais variadas linguagens utilizadas
 <a id="structure"></a>
 
 
-### :fire: Faça a Demo em nosso site
-Você não tem muito conhecimento, ou quer testar nossa API sem precisar utilizar uma linguagem de programação ou o terminal? Disponibilizamos também uma interface web onde você consegue realizar o teste em apenas 3 passos. Acesse o [Moorse Demo](https://app.moorse.io/demo) e veja como é simples.
-
-
 ### :rocket: Configurando o projeto
 Neste tópico iremos ver como realizar a configuração do projeto.
 
 1. Acesse o sistema do [Moorse](https://app.moorse.io/demo) e crie sua conta.
-2. No [Dashboard](https://app.moorse.io) identifique o número disponibilizado para realizar sua demo e adicione na propriedade "number" do arquivo **application.yml**.
+2. No [Dashboard](https://app.moorse.io/channels/whatsapp) identifique o id da integração disponibilizada para realizar sua demo e adicione na propriedade "integration" do arquivo **application.yml**.
 3. Acesse o arquivo **application.yml** localizado em "whatsapp-api-java/src/main/resources/application.yml" e adicione seu token.
 
 Altere as propriedade abaixo para as configurações da sua conta moorse.
 
 ```
 moorse:
-  integration:
-    number: 5511999999999
+  integration: ID_DA_SUA_INTEGRACAO_AQUI
   api:
     url: http://api.moorse.io
   token: SEU_TOKEN_AQUI
   
 ```
+
+Configurando seu webhook 
+
+1 - Acesse a opção do menu [Webhooks]((https://app.moorse.io/webhooks) e adicione o seu webhook Ex: https://https://9c740e0cd1.ngrok.io/webhooks
+2 - Toda mensagem recebida na sua integração será enviada para o seu webhook.
 
 ### :arrow_forward: Executando seu projeto
 No terminal Acesse a raiz do seu projeto e execute o comando abaixo:

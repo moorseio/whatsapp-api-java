@@ -9,11 +9,13 @@ import io.moorse.demo.whatsapp.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Service
 public class BotServiceImpl implements BotService{
 
-  @Value("${moorse.integration.number}")
-  private String from;
+  @Value("${moorse.integration}")
+  private UUID integrationId;
 
   private final MoorseMessageApi moorseMessageApi;
 
@@ -76,12 +78,12 @@ public class BotServiceImpl implements BotService{
   }
 
   private void sendMessage(String to, String content){
-    MessageRequest messageRequest = new MessageRequest(from, to, content);
-    moorseMessageApi.sendMessage(messageRequest);
+    MessageRequest messageRequest = new MessageRequest(to, content);
+    moorseMessageApi.sendMessage(integrationId, messageRequest);
   }
 
   private void sendMessageInitial(String to, String userName, String content){
-    MessageFileRequest messageRequest = new MessageFileRequest(from, to);
+    MessageFileRequest messageRequest = new MessageFileRequest(to);
     messageRequest.setBody(Constants.IMAGE_INITIAL);
     messageRequest.setFilename(Constants.FILE_NAME_INITIAL);
 
@@ -91,7 +93,7 @@ public class BotServiceImpl implements BotService{
     msg.append(content);
     messageRequest.setCaption(msg.toString());
 
-    moorseMessageApi.sendFile(messageRequest);
+    moorseMessageApi.sendFile(integrationId, messageRequest);
   }
 
 

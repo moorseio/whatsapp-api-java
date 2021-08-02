@@ -2,8 +2,7 @@ server:
   port: 8080
 
 moorse:
-  integration:
-    number: 551151992100
+  integration: ID_DA_SUA_INTEGRACAO_AQUI
   api:
     url: https://api.moorse.io
   token: SEU_TOKEN_AQUI

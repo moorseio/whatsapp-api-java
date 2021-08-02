@@ -2,7 +2,6 @@ package io.moorse.demo.whatsapp.api.moorse.dto;
 
 public class MessageFileRequest {
 
-  private String from;
   private String to;
   private String body;
 
@@ -12,25 +11,15 @@ public class MessageFileRequest {
   public MessageFileRequest() {
   }
 
-  public MessageFileRequest(String from, String to, String body) {
-    this.from = from;
+  public MessageFileRequest(String to, String body) {
     this.to = to;
     this.body = body;
   }
 
-  public MessageFileRequest(String from, String to) {
-    this.from = from;
+  public MessageFileRequest(String to) {
     this.to = to;
   }
 
-
-  public String getFrom() {
-    return from;
-  }
-
-  public void setFrom(String from) {
-    this.from = from;
-  }
 
   public String getTo() {
     return to;
