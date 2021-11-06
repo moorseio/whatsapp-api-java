@@ -25,7 +25,7 @@ public class WebhooksController {
   public void whatsappWebhook(@RequestBody String json) {
     Message message = new Gson().fromJson(json, Message.class);
     System.out.println(message.toString());
-    if (message.getStatus().equals(ReponseType.RESPONDIDA.toString())) {
+    if (message.getStatus().equals(ReponseType.RECEIVED.toString())) {
       botService.receiveMessage(message);
     }
   }
