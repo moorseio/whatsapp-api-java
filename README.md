@@ -7,6 +7,16 @@
   <a href="https://moorse.readme.io/">Documentação</a>
 </font></strong>
 
+## Moorse support free on Whatsapp
+
+<a target="_blank" href="https://web.whatsapp.com/send?phone=5511975923164&text=oi" target="_blank"><img title="whatsapp" height="100" width="375" src="https://whatsapp.moorse.io/assets/img/whatsapp.png"></a>
+
+
+## Moorse group support free on Telegram
+
+<a target="_blank" href="https://t.me/moorseio" target="_blank"><img title="Telegram" height="100" width="375" src="https://whatsapp.moorse.io/assets/img/telegram.png"></a>
+
+
 
 [![Watch the video](https://moorse.io/assets/api/chat-bot-whatsapp-java.png)](https://youtu.be/YJrnQ87Rw2A)
 
